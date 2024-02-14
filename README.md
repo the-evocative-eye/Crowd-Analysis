@@ -15,9 +15,13 @@ Current functions implemented includes:
  Clone this repo. Then, create a folder YOLOv4-tiny, download and put in the weight and config file. The files can be found here, yolov4-tiny.weights and yolov4-tiny.cfg. Or you can just run the scirpt below.
 
 git clone https://github.com/the-evocative-eye/CrowdAnalysis.git
+
 cd Crowd-Analysis
+
 mkdir YOLOv4-tiny
+
 wget -P YOLOv4-tiny https://github.com/AlexeyAB/darknet/releases/download/yolov4/yolov4-tiny.weights
+
 wget -P YOLOv4-tiny https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny.cfg
 
 ~ Requirements:
