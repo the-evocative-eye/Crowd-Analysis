@@ -11,29 +11,27 @@ Current functions implemented includes:
 2. Social distance rule violation
 3. Entries to restriced areas
 
- Development:
+~ Development:
  Clone this repo. Then, create a folder YOLOv4-tiny, download and put in the weight and config file. The files can be found here, yolov4-tiny.weights and yolov4-tiny.cfg. Or you can just run the scirpt below.
 
-git clone https://github.com/lewjiayi/Crowd-Analysis.git
+git clone [https://github.com/lewjiayi/Crowd-Analysis.git](https://github.com/the-evocative-eye/CrowdAnalysis.git)
 cd Crowd-Analysis
 mkdir YOLOv4-tiny
 wget -P YOLOv4-tiny https://github.com/AlexeyAB/darknet/releases/download/yolov4/yolov4-tiny.weights
 wget -P YOLOv4-tiny https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny.cfg
 
-Requirements:
+~ Requirements:
 Install the requirements
 
 pip3 install requirements.txt
 
-Configuration
+~ Configuration
 config.py contains all configurations for this program.
 ~Place the video source under VIDEO_CONFIG.VIDEO_CAP in config.py
 
 
-Running:
+~ Running:
 Before you run the program, make sure you have input a valid video source. You have to provide your own video for the program. Replace the path at VIDEO_CONFIG.VIDEO_CAP in config.py with the path of your own video.
 
 To process a video, run main.py
 
-python3 main.py
-main.py will yield a set of data from the video source in the form of csv and json. These data will be placed in the directory processed_data.
