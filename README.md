@@ -1,9 +1,9 @@
 # Description
-The project is dedicated to apply on CCTV and other survailance system for simple crowd monitoring and crowd analysis. The system is able to monitor for abnormal crowd activity, social distance violation and restricted entry. The other part of the system can then process crowd movement data into optical flow, heatmap and energy graph.
+The project is dedicated to apply on CCTV and other survailance system for simple crowd monitoring and crowd analysis. The system is able to monitor for abnormal crowd activity, social distance violation and restricted entry. The other part of the system can then process crowd movement data into optical flow, heatmap and energy graph that is yet to be made.
 
 Abnormal crowd activity is monitored by computing crowd movement energy level.
 
-Social distace violation is simply calculating distance between individuals. Two modes are given to calculate distance from edge of individuals or center of individuals from camera at different scenario.
+Social distace violation is simply calculating Euclidean distance between individuals. Two modes similar to bounding boxes are given to calculate distance from edge of individuals or center of individuals from camera at different scenario.
 
 Human detection is implemented using YOLOv4 via OpenCV built-in function. Tracking algorithm is implemented using Deep SORT, referencing the implementation by Python Lessons.
 
